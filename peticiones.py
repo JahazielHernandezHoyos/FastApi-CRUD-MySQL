@@ -12,6 +12,7 @@ headers = {
 
 r = requests.get('http://127.0.0.1:8000/headers', headers=headers)
 
+#almacenar el resultado en una variable
 
 print(r.text)
 
