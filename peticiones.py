@@ -5,8 +5,9 @@ import json
 
 
 headers = {
+    #comerede
     'Hola': '12312312312132'}
-
+#camarada
 
 r = requests.get('http://127.0.0.1:8000/headers', headers=headers)
 
