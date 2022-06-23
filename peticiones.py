@@ -14,6 +14,7 @@ r = requests.get('http://127.0.0.1:8000/headers', headers=headers)
 
 #almacenar el resultado en una variable
 
+SAD
 print(r.text)
 
 # mandar en el header "Hola" a la url "http:
